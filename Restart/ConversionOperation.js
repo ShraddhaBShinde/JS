@@ -105,3 +105,29 @@ num1 = num2 = num3 = 2 + 2
 let gameCounter = 100
 ++gameCounter;
 console.log(gameCounter);
+
+
+// *********************** Comparisons ***********************
+//simple comparions
+// console.log(2 > 1);
+// console.log(2 >= 1);
+// console.log(2 < 1);
+// console.log(2 == 1);
+// console.log(2 != 1);
+
+
+//tricky comparisons
+// console.log("2" > 1); //gives o/p as true, js allows this and converts the data type to number, but writing such code is not reccomended
+// console.log("02" > 1);
+
+//(not prefferable) ;equality check (==) and comparison operators (>,<, >=,<=) work differently ; Comparisons convert null to a number treating it as 0
+console.log(null > 0);
+console.log(null == 0);
+console.log(null >= 0);
+console.log(undefined == 0);
+console.log(undefined > 0);
+console.log(undefined < 0);
+
+// === 
+
+console.log("2" === 2);
