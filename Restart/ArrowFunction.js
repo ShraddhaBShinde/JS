@@ -1,3 +1,5 @@
+//flow of required concepts are; arrwow function->this keyword->object
+
 const user = {
     username: "shraddha",
     price: 999,
