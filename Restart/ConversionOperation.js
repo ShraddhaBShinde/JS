@@ -130,4 +130,4 @@ console.log(undefined < 0);
 
 // === 
 
-console.log("2" === 2);
+console.log("2" === 2); //== performs type conversion before comparison, while === checks both value and type without conversion.
